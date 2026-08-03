@@ -65,6 +65,7 @@ class Recursion{
         }
         Back_Track(n+1);
         System.out.println(n);
+        
     }
     public static void main(String[]args){
         Back_Track(1);
