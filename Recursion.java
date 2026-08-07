@@ -71,3 +71,22 @@ class Recursion{
         Back_Track(1);
     }
 }*/
+
+//Reverse an array using Recursion
+class Recursion{
+    static void Reverse(int[] arr,int i, int j ) {
+        if(i>=j){
+            return;
+        }
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+        Reverse(arr, i+1, j-1 );
+       // System.out.print();
+    }
+    public static void main(String[]args){
+        int[] arr = {3,7,2,9,3};
+        Reverse(arr, 0, arr.length-1);
+        System.out.print(Arrays.toString(arr));
+    }
+}
