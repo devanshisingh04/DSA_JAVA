@@ -12,7 +12,7 @@ class Recursion {
     }
 }*/
 
-
+ .
 /*print linear 1 to n 
 class Recursion{
     static void linear(int n, int m){
