@@ -11,6 +11,7 @@ public class Prefix_sum {
         arr[i] += arr[i - 1];
         presum(arr, i + 1);
     }
+    
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
