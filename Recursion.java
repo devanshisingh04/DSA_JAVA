@@ -7,6 +7,7 @@ class Recursion {
         System.out.println("Runjhun");
         PrintName(name,n+1,m);
     }    
+    
     public static void main(String[]args){
         PrintName("Runjhun", 1, 5);
     }
